@@ -7,3 +7,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.img-contain {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.inline50 {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 63px;
+}
+
+@media(min-width:650px) {
+    body {
+        display: none;
+    }
+}
